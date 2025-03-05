@@ -5,7 +5,26 @@ This Python script demonstrates how to validate user input using regular express
 
 # Features
 • Input Validation:
-   • Name: Only alphabets and spaces are allowed.
-   • Date of Birth: Must be in the format DD-MM-YYYY.
-   
 
+   • Name: Only alphabets and spaces are allowed.
+   
+   • Date of Birth: Must be in the format DD-MM-YYYY.
+
+   • Mobile Number: Must be in the format XXX-XXX-XXXX.
+
+   • Email: Must be a valid Gmail address (e.g., example@gmail.com).
+
+ • Email Sending:
+
+   • Collects user details and sends them via email using Gmail's SMTP server.
+
+   • Uses the smtplib library to send the email.
+
+ # Prerequisites
+ Ensure you have the following installed:
+
+  •  Python 3.x
+
+  •  Required Python libraries:
+
+      pip install smtplib email
