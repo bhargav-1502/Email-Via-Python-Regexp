@@ -32,15 +32,15 @@ This Python script demonstrates how to validate user input using regular express
  # How to Use
    1. Clone this repository:
 
-        git clone https://github.com/your-username/repository-name.git
+         git clone https://github.com/your-username/repository-name.git
 
    2. Navigate to the project directory:
 
-        cd repository-name
+         cd repository-name
 
    3. cd repository-name
 
-       python Email_via_Python.py
+         python Email_via_Python.py
 
    4. Follow the on-screen prompts to enter your details.
 
