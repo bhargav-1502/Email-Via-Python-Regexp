@@ -5,56 +5,52 @@ This Python script demonstrates how to validate user input using regular express
 
 # Features
 
-• Input Validation:
+•  Validates user inputs:
+    •   Name (Only letters and spaces)
 
-    • Name: Only alphabets and spaces are allowed.
-   
-    • Date of Birth: Must be in the format DD-MM-YYYY.
+    •   Date of Birth (Format: DD-MM-YYYY)
 
-    • Mobile Number: Must be in the format XXX-XXX-XXXX.
+    •   Mobile Number (Format: XXX-XXX-XXXX)
+    
+    •   Email (Only Gmail addresses)
+    
+    •   Collects Instagram ID as additional information.
 
-    • Email: Must be a valid Gmail address (e.g., example@gmail.com).
-
-• Email Sending:
-
-   • Collects user details and sends them via email using Gmail's SMTP server.
-
-   • Uses the smtplib library to send the email.
+    •   Sends the collected details to the provided email using Gmail's SMTP server.
 
  # Prerequisites
- Ensure you have the following installed:
 
   •  Python 3.x
 
-  •  Required Python libraries:
+  •  An active Gmail account with "Less secure apps" access enabled (or an app password).
 
-      pip install smtplib email
-
- # How to Use
+      
+ # Installation
+ 
    1. Clone this repository:
       
+        git clone https://github.com/yourusername/your-repository.git
+        cd your-repository
 
-         git clone https://github.com/your-username/repository-name.git
+   2. Install the required dependencies (if not already installed):
 
-   3. Navigate to the project directory:
-      
+        pip install smtplib email
 
-         cd repository-name
+  # Usage
 
-   5. cd repository-name
-      
+    1. Run the script
 
-         python Email_via_Python.py
+         python Email\ via\ Python\(regexp\).py
 
-   7. Follow the on-screen prompts to enter your details.
+    2. Enter the required details when prompted.
+    
+    3. The script will validate the inputs and send an email with the details.     
 
-   8. The script will validate your inputs and send an email with the provided details.
 
  # Configuration
 
- Modify the following lines in the script to use your own Gmail credentials:
+   . Modify sender_email and sender_password in the script to match your Gmail credentials.
 
-  sender_email = "your-email@gmail.com"
-  sender_password = "your-app-password"
+   . For security reasons, consider using an app password instead of your actual Gmail password.
 
-  Note: For security reasons, use an App Password instead of your main Gmail password.
+   
