@@ -28,9 +28,10 @@ This Python script demonstrates how to validate user input using regular express
  # Installation
  
    1. Clone this repository:
-      
-        git clone https://github.com/yourusername/your-repository.git
-        cd your-repository
+         bash
+         git clone https://github.com/yourusername/your-repository.git
+         cd your-repository
+
 
    2. Install the required dependencies (if not already installed):
 
