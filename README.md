@@ -41,16 +41,16 @@ This Python script demonstrates how to validate user input using regular express
 
   # Usage
 
-    1. Run the script
+   1. Run the script
 
          ```bash
          python Email\ via\ Python\(regexp\).py
          
 
-    2. Enter the required details when prompted.
+   2. Enter the required details when prompted.
     
     
-    3. The script will validate the inputs and send an email with the details.     
+   3. The script will validate the inputs and send an email with the details.     
 
 
  # Configuration
