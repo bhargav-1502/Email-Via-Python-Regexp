@@ -49,6 +49,7 @@ This Python script demonstrates how to validate user input using regular express
 
     2. Enter the required details when prompted.
     
+    
     3. The script will validate the inputs and send an email with the details.     
 
 
