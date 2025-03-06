@@ -3,9 +3,9 @@
 # Overview
 This Python script demonstrates how to validate user input using regular expressions (regex) and send an email with the collected details. The script ensures that the user provides valid information for their name, date of birth, mobile number, and email address. Once validated, the details are sent to the provided email address using the smtplib library.
 
-## Features
+# Features
 
-• Validates user input using regular expressions:
+1. Validates user input using regular expressions:
 
    • Name (Only letters and spaces)
 
@@ -15,7 +15,7 @@ This Python script demonstrates how to validate user input using regular express
 
    • Email (Only Gmail addresses allowed)
 
-   • Sends an email with user details via SMTP.
+   2. Sends an email with user details via SMTP.
 
  # Prerequisites
 
