@@ -45,7 +45,7 @@ sender_email = "bhargavrayudu1502@gmail.com"
 sender_password = "gefl cvdr yfjb crlm"  
 
 subject = "User Details"
-body = f" Name: {name}\nDate of Birth: {dob}\nMobile: {phone}\nInstagram ID: {insta}\nEmail: {email}"
+body = f" \nName: {name}\nDate of Birth: {dob}\nMobile: {phone}\nInstagram ID: {insta}\nEmail: {email}"
 
 
 msg = MIMEMultipart()
