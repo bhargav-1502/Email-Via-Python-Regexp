@@ -14,8 +14,9 @@ This Python script demonstrates how to validate user input using regular express
    • Mobile Number (XXX-XXX-XXXX format)
 
    • Email (Only Gmail addresses allowed)
+   
 
-   2. Sends an email with user details via SMTP.
+2. Sends an email with user details via SMTP.
 
  # Prerequisites
 
@@ -44,6 +45,7 @@ This Python script demonstrates how to validate user input using regular express
 
          ```bash
          python Email\ via\ Python\(regexp\).py
+         
 
     2. Enter the required details when prompted.
     
@@ -52,8 +54,8 @@ This Python script demonstrates how to validate user input using regular express
 
  # Configuration
 
-   . Modify sender_email and sender_password in the script to match your Gmail credentials.
+   • Modify sender_email and sender_password in the script to match your Gmail credentials.
 
-   . For security reasons, consider using an app password instead of your actual Gmail password.
+   • For security reasons, consider using an app password instead of your actual Gmail password.
 
    
